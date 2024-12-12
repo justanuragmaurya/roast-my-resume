@@ -1,3 +1,5 @@
+
+https://github.com/user-attachments/assets/111a110b-d964-48b1-982c-7350743571c5
 # Roast My Resume - Project Documentation
 
 ## Overview
@@ -22,57 +24,3 @@ Roast My Resume is a web application that provides humorous critiques of resumes
 - **Multer**: For handling file uploads  
 - **pdf-parse**: For extracting text from PDF files  
 - **OpenAI API**: For generating roasts  
-
-### Development Tools
-- **ESLint**: Code linting  
-- **PostCSS**: CSS processing  
-- **Vercel Analytics**: For tracking usage metrics  
-
----
-
-## Core Features
-
-### 1. Resume Upload
-- Drag-and-drop interface for file upload  
-- Support for PDF files only  
-- File size limit of 5MB  
-- Visual feedback during upload process  
-
-### 2. PDF Processing
-- Secure file handling  
-- Text extraction from PDF documents  
-- Error handling for corrupted files  
-
-### 3. AI Integration
-- Integration with OpenAI's GPT model  
-- Custom prompt engineering for humorous responses  
-- Rate limiting and error handling  
-
-### 4. User Interface
-- Responsive design for all devices  
-- Loading states and animations  
-- Error messaging  
-- Clean and modern aesthetic  
-
----
-
-## Application Flow
-
-1. **User Entry**  
-   - User visits the website  
-   - Presented with upload interface  
-
-2. **File Upload**  
-   - User drags or selects a PDF resume  
-   - Frontend validates file type and size  
-   - Visual confirmation of successful upload  
-
-3. **Processing**  
-   - File sent to backend server  
-   - PDF text extracted  
-   - Content sent to OpenAI API  
-
-4. **Response**  
-   - AI-generated roast returned to frontend  
-   - Displayed in formatted view  
-   - Option to generate new roast  
